@@ -1,0 +1,12 @@
+.navbar a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.navbar{
+    font-size: 30px;
+}
+
+@media screen {
+    
+}
