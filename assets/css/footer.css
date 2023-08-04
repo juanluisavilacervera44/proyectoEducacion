@@ -5,14 +5,27 @@ footer {
     color: white;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.2rem;
 }
 
-ul[class*="no-bullets"]{
+ul[class*="no-bullets"] {
     line-height: 35px;
 }
 
-.no-bullets a{
+.no-bullets a {
     color: white;
+}
+
+.bi-facebook:hover {
+
+    color: rgb(0, 89, 255);
+
+}
+
+.bi-twitter:hover {
+
+    color: rgb(100, 153, 253);
+
 }
