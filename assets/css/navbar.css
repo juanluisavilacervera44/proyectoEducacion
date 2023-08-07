@@ -15,6 +15,15 @@
     padding: 0 !important;
     border-radius: 0;
 }
+
+.nav-item{
+    margin-right: 5px;
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: #ff000033 !important;
+}
+
 .dropdown-item:hover{
     background-color: #ff00006c !important;
 }
