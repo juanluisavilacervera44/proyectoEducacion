@@ -1,0 +1,6 @@
+@import url(navbar.css);
+@import url(carousel.css);
+
+.header div.navrow{
+    background: linear-gradient(#ff0000e0, #ff000000);
+}
