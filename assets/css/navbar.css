@@ -3,7 +3,19 @@
     color: black;
 }
 
+.nav-link{
+    color: white !important;
+}
+
 .navbar{
     font-size: 30px;
     
 }
+.dropdown-menu{
+    padding: 0 !important;
+    border-radius: 0;
+}
+.dropdown-item:hover{
+    background-color: #ff00006c !important;
+}
+
