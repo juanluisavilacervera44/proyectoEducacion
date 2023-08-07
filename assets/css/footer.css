@@ -5,9 +5,8 @@ footer {
     color: white;
 }
 
-ol,
-ul {
-    padding-left: 1.2rem;
+ol, ul {
+    padding-left: 0rem;
 }
 
 ul[class*="no-bullets"] {
