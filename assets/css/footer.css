@@ -1,0 +1,31 @@
+footer {
+    background: linear-gradient(#ff000000, #ff0000e0);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+ol,
+ul {
+    padding-left: 1.2rem;
+}
+
+ul[class*="no-bullets"] {
+    line-height: 35px;
+}
+
+.no-bullets a {
+    color: white;
+}
+
+.bi-facebook:hover {
+
+    color: rgb(0, 89, 255);
+
+}
+
+.bi-twitter:hover {
+
+    color: rgb(100, 153, 253);
+
+}
