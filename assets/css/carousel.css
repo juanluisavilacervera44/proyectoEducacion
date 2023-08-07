@@ -4,8 +4,6 @@
     width: auto;
     max-height: 400px;
     /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
-
-    /* background: linear-gradient(rgba(228, 222, 222, 0.212),
-    rgb(255, 254, 254)), url(/assets/img/maqueta-12/image-header.jpg); */
 }
+
 
