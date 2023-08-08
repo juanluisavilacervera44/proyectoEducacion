@@ -1,0 +1,11 @@
+.noticia-link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+.noticia-img:hover{
+    border: solid 2px #ff000093;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px, rgba(0, 0, 0, 0.12) 0px -3px 7px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 6px 7px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
