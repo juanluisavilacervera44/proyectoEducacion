@@ -42,10 +42,6 @@ a:active {
     text-decoration: underline;
 }
 
-ul.no-bullets {
-    list-style-type: none;
-}
-
 .img {
     object-fit: cover;
     object-position: center;
