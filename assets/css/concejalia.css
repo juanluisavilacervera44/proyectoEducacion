@@ -1,0 +1,17 @@
+@import url(/assets/css/header.css);
+@import url(/assets/css/footer.css);
+
+header > .cabecera-titulo{
+    height: 400px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background:#ff00008c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+header > .cabecera-titulo > h1{
+
+    color:white;
+    font-size: 5em;
+}
