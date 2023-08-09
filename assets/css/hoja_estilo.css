@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(noticias.css);
 @import url(footer.css);
+@import url(concejalia.css);
 
 
 h1,
@@ -35,10 +36,6 @@ a:hover {
 
 a:active {
     text-decoration: underline;
-}
-
-ul.no-bullets {
-    list-style-type: none;
 }
 
 .img {
