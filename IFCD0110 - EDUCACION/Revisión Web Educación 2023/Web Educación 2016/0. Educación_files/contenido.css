@@ -1,0 +1,206 @@
+/* 
+    Document   : contenido
+    Created on : 27-ene-2010, 20:09:31
+    Author     : Manolo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.div_titulo_menu
+{
+    font-size:2em;
+    color:white;
+    padding:5px;
+}
+.div_titulo_seccion
+{
+    font-size:1.5em;
+    color:#333;
+    margin-top:20px;
+    margin-left:20px;
+}
+.div_contenido_seccion
+{
+    margin-left:10px;
+    margin-top:10px;
+    width:97%;
+    line-height:1.5em;
+}
+.div_contenido_titulo_completo
+{
+    width:100%;
+    background-color:#efefef;
+    margin-top:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.lbl_contenido_titulo_completo
+{
+    font-size:1.7em;
+    line-height:1.2em;
+    margin-top:5px;
+}
+.lbl_contenido_fecha_completo
+{
+    color:#666;
+}
+.lbl_contenido_subtitulo
+{
+    font-size:larger;
+    font-weight:bold;
+}
+
+.div_contenido_noticia
+{
+    margin-top:10px;
+    width:100%;
+}
+/***************************************************************************/
+/* Estilos de la pantalla de menu automatica */
+/***************************************************************************/
+.div_maqueta_contenedor
+{
+    text-align:center;
+    width:100%;
+}
+.div_maqueta_menu
+{
+    text-align:left;
+    width:95%;
+}
+.div_maqueta_seccion
+{
+    width:250px;
+    float:left;
+    height:100px;
+    margin-right:30px;
+}
+.img_maqueta_menu
+{
+    width:60px;
+}
+.a_maqueta_menu
+{
+    display:block;
+    border-bottom:dotted 1px #999;
+}
+.lbl_maqueta_menu
+{
+}
+/***************************************************************************/
+/* Estilos de las etiquetas de las noticias */
+/***************************************************************************/
+.div_contenido_etiquetas
+{
+    margin-top:15px;
+    margin-left:15px;
+}
+.lbl_titulo_etiquetas
+{
+    font-weight:bold;
+}
+.a_contenido_etiqueta
+{
+    margin-left:10px;
+}
+/***************************************************************************/
+/* Estilos de las noticias relacionadas */
+/***************************************************************************/
+.div_contenido_relacionado
+{
+    background-color:#efefef;
+    width:80%;
+    margin-left:30px;
+    margin-top:30px;
+}
+.lbl_contenido_titulo_relacionado
+{
+    font-weight:bold;
+    font-size:1.1em;
+}
+.ul_contenido_relacionado
+{
+    list-style:none;
+}
+.lbl_fecha_relacionado{}
+.a_contenido_relacionado
+{
+    margin-left:5px;
+}
+/***************************************************************************/
+/* Estilos del pie de las noticias */
+/***************************************************************************/
+.div_inicio_noticia
+{
+    border-bottom:dotted 1px #666;
+    margin-top:5px;
+    width:100%; 
+}
+.div_pie_noticia
+{
+    border-top:dotted 1px #666;
+    margin-top:20px;
+    width:100%;
+}
+.addthis_toolbox .div_caja_compartir a
+{
+    display: block;
+    text-decoration: none;
+}
+
+.addthis_toolbox .div_caja_compartir a:hover
+{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #B4D3F8;
+    text-decoration: none;
+}
+/***************************************************************************/
+/* Estilos de impresion */
+/***************************************************************************/
+.div_contenido_titulo_impresion
+{
+    width:100%;
+    background-color:#efefef;
+    font-size: 1.2em;
+    margin-bottom:5px;
+}
+.lbl_contenido_titulo_impresion
+{}
+.lbl_contenido_fecha_impresion
+{
+    color:#666;
+    font-size:0.7em;
+}
+.div_contenido_impresion
+{
+    margin-top:10px;
+    font-size:0.8em;
+}
+.div_cabecera_impresion
+{
+    width:100%;
+    background-color:#cc9966;
+    margin-bottom:10px;
+}
+/***************************************************************************/
+/* Estilos de las imagenes lightbox */
+/***************************************************************************/
+.imgLightBox
+{
+    border:solid 3px #333333;
+    height: 150px;
+}
+.divLightBox
+{
+    float:left;
+    margin:10px;
+    /*width:152px;*/
+    height:150px;
+    text-align:center;
+}
