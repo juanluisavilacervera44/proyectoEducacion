@@ -29,3 +29,7 @@ ul[class*="no-bullets"] {
     color: rgb(100, 153, 253);
 
 }
+
+ul.no-bullets {
+    list-style-type: none;
+}
