@@ -1,3 +1,8 @@
+
+.navbar{
+    font-size: 30px;
+    
+}
 @import url(body.css);
 .navbar a{
     text-decoration: none !important;
@@ -8,10 +13,7 @@
     color: white !important;
 }
 
-.navbar{
-    font-size: 30px;
-    
-}
+
 .dropdown-menu{
     padding: 0 !important;
     border-radius: 0;
@@ -30,10 +32,19 @@
 }
 
 .navbar-toggler{
-    background-color: #ff00006c;
-    border-color: rgba(129, 2, 2, 0.424)!important;
+    background-color: #ff000041;
+    border-color: white;
 }
 
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(129, 2, 2, 0.424)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.logo-ayuntamiento{
+    width: 200px !important;
+ 
+ }
+
+ .navrow{
+    padding-bottom: 20px;
+    padding-top: 20px;
 }

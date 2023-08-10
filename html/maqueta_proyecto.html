@@ -16,19 +16,19 @@
     <link rel="stylesheet" href="/assets/css/hoja_estilo.css">
 </head>
 
-<body>
+<body style="padding:0px; overflow-x: hidden;">
 
-    <header class="header" style="margin-bottom: 100px;">
-        <div class="row navrow">
-            <div class="col-sm-3 text-center">
+    <header class="header">
+        <div class="row navrow" style="margin-right: 0;">
+            <div class="col-lg-3 text-center d-flex align-items-center justify-content-center">
                 <!--IMAGEN LOGOTIPO-->
-                <img src="../assets/img/header/logo_alcalalareal-removebg.png" alt="Logo del ayuntamiento">
+                <img class="logo-ayuntamiento" src="../assets/img/header/Horizontal blanco@2x.png" alt="Logo del ayuntamiento" >
 
             </div>
-            <div class="col-sm-7 d-flex align-items-center  justify-content-center">
+            <div class="col-lg-7 d-flex align-items-center  justify-content-center">
                 <!--INICIO MENÚ-->
                 <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid">
+                    <div class="container-fluid  d-flex align-items-center text-center justify-content-center">
 
                         <!-- TOGGLER -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,10 +38,10 @@
                         </button>
                         <!-- FIN DEL TOGGLER -->
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center text-center">
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropdown d-flex align-items-center flex-column">
+                                    <a class="nav-link  w-100"" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Concejalía
                                     </a>
@@ -51,8 +51,8 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropdown d-flex align-items-center flex-column">
+                                    <a class="nav-link  w-100"" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Centros Educativos
                                     </a>
@@ -63,8 +63,8 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropdown d-flex align-items-center flex-column">
+                                    <a class="nav-link  w-100"" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         AMPAs
                                     </a>
@@ -74,23 +74,21 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropdown d-flex align-items-center flex-column">
+                                    <a class="nav-link text-center w-100" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Universidad
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">UJA</a></li>
-                                        <li><a class="dropdown-item" href="#">UNED</a></li>
-                                        <!-- <li><hr class="dropdown-divider"></li> -->
-                                        <li><a class="dropdown-item" href="#">Universidad de Mayores</a></li>
-                                        <li><a class="dropdown-item" href="#">EVAU</a></li>
-                                        <li><a class="dropdown-item" href="#">Ayudas Complementarias</a></li>
+                                    <ul class="dropdown-menu w-100">
+                                        <li><a class="dropdown-item w-100" href="#">UJA</a></li>
+                                        <li><a class="dropdown-item w-100" href="#">UNED</a></li>
+                                        <li><a class="dropdown-item w-100" href="#">Universidad de Mayores</a></li>
+                                        <li><a class="dropdown-item w-100" href="#">EVAU</a></li>
+                                        <li><a class="dropdown-item w-100" href="#">Ayudas Complementarias</a></li>
                                     </ul>
                                 </li>
-
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="aulamentor/aulamentor.html" role="button"
+                                    <a class="nav-link  w-100"" href="aulamentor/aulamentor.html" role="button"
                                         aria-expanded="false">
                                         Aula Mentor
                                     </a>
@@ -104,26 +102,7 @@
             </div>
         </div>
         <!--IMAGEN Y TÍTULO-->
-        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade row" style="height: 400px; overflow: hidden;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/assets/img/header/panoramica_andalucia_jaen_alcala-la-real_cedida-1-1170x350.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-flex align-items-center justify-content-center">
-                        <h1 style="font-size: 4.5vw;text-shadow: 1px 1px 1px" class="display-1">Área de Educación en
-                            Alcalá la Real</h1>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/header/IES_Antonio_Mendoza.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/header/estudiantes.webp" class="d-block w-100" alt="...">
-                </div>
-            </div>
-        </div> -->
-
-        <div id="carouselExampleFade" class="carousel slide carousel-fade row" style="height: 400px; overflow: hidden;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade row">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="/assets/img/header/Education_HEADER.jpg" class="d-block w-100" alt="...">

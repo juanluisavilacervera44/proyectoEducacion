@@ -2,9 +2,16 @@
 @import url(carousel.css);
 @import url(body.css);
 
-.header div.navrow{
-    background: linear-gradient(#ff0000e0, #ff00008c);
+.header{
+    margin-right: 0;
+    margin-left: 0;
+    width: 103vw;
+    margin-bottom: 100px;
 }
+.header div.navrow{
+    background: linear-gradient(#ff0000e0, #ff000070);
+}
+
 
 header>.cabecera-titulo {
     height: 400px;
@@ -22,3 +29,5 @@ header>.cabecera-titulo>h1 {
     color: white;
     font-size: 5em;
 }
+
+
