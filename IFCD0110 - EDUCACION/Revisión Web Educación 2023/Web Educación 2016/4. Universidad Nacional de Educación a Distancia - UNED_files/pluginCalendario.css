@@ -1,0 +1,65 @@
+/* 
+    Document   : calendario
+    Created on : 21-mar-2011, 10:59:51
+    Author     : Manolo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#calendar
+{
+    width:200px;
+    font-size:1.3em;
+    border-left: 1px solid #A2ADBC;
+    text-align: center;
+    background-color: #fff;
+}
+
+#calendar caption {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	color: #666;
+	text-align: center;
+}
+.calendario_th
+{
+	color: #616B76;
+	background: #D9E2E1;
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	border-top: 1px solid #A2ADBC;
+}
+
+.calendario_hoy, td.calendario_hoy a, td.calendario_hoy a:link, td.calendario_hoy a:visited {
+	color: #F6F4DA;
+	font-weight: bold;
+	background: #DF9496;
+}
+.calendario_evento
+{
+    font-weight: bold;
+    background: #009966;
+}
+#calendar td {
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	text-align: center;
+}
+
+#calendar td a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+        color:white;
+}
+.calendario_imagen
+{
+    border:solid 1px #333;
+    width:200px;
+}

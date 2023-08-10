@@ -1,0 +1,55 @@
+.div_paginador
+{
+    
+}
+.a_paginador_titulo_compacto
+{
+    font-size:12pt;
+    text-decoration:none;
+    color:#333333;
+}
+.a_paginador_titulo_compacto:hover
+{
+    color:#0078CE;
+}
+.div_paginador_titulo_resumen
+{
+    background-color:white;
+    border-bottom:dotted 1px #999;
+}
+.a_paginador_titulo_resumen
+{
+    color:#9D112E;
+    font-size:1.2em;
+}
+.a_paginador_titulo_resumen:hover
+{
+    color:#cc9900;
+}
+.lbl_paginador_fecha_resumen
+{
+    color:#666;
+}
+.img_paginador_compacto
+{
+    width:23px;
+    height:23px;
+}
+.a_paginador_numeros
+{
+    font-size:1.1em;
+    text-decoration:none;
+    margin:4px;
+}
+.a_paginador_numeros:hover
+{
+    color:#cc9900;
+}
+.lbl_paginador_numeros
+{
+    font-size:1.2em;
+    color:#000000;
+    font-weight:bold;
+    margin:4px;
+}
+
