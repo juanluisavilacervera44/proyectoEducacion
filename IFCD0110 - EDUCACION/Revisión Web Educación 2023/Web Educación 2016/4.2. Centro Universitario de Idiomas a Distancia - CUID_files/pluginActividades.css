@@ -1,0 +1,40 @@
+/* 
+    Document   : pluginActividades
+    Created on : 30-jun-2010, 19:45:25
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.lbl_actividades_titulo
+{
+    width:90%;
+    display:block;
+    border-bottom:dotted 1px #666;
+    margin-bottom:10px;
+    font-size:1.2em;
+    font-weight:bold;
+    color:#9D112E;
+}
+
+.columna_actividades_detalle
+{
+    width: 30px;
+}
+
+.etiqueta_actividades_busqueda
+{
+    width: 250px;
+    vertical-align: top;
+}
+
+.etiquetas_actividades_detalle
+{
+    font-weight: bold;
+}
+
