@@ -28,3 +28,9 @@
 .noticia-contenedor > a {
 color: black;
 }
+
+.btn-danger:hover {
+border: solid 1px; #dc3545;
+color: #dc3545;
+background-color: white;
+}
