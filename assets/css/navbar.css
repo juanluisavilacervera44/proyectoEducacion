@@ -1,8 +1,9 @@
+
 .navbar{
     font-size: 30px;
     
 }
-
+@import url(body.css);
 .navbar a{
     text-decoration: none !important;
     color: black;

@@ -1,3 +1,4 @@
+@import url(body.css);
 .carousel-item img {
     /* this will align the image to center. */
     max-height: 400px;
