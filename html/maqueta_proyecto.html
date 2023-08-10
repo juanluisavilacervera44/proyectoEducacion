@@ -154,8 +154,8 @@
     </header> <!--FIN DE LA CABECERA-->
     <main class="container">
         <div class="row">
-            <div class="col-9">
-                <section> 
+            <div class="col-lg-9">
+                <section>
                     <!--INICIO CUERPO-->
                     <div class="row" style="margin-bottom: 70px;">
                         <div class="col-6">
@@ -168,7 +168,7 @@
                             </a>
                         </div>
 
-                        <div class="col-6" style="text-align: center; margin-top: 40px";>
+                        <div class="col-6" style="text-align: center; margin-top: 40px" ;>
                             <h3>Concejalía</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorum eaque expedita
                                 ipsa facilis pariatur, error a fugiat natus recusandae nemo est sunt, delectus quae
@@ -265,51 +265,62 @@
 
             <!--FIN CUERPO-->
             <!--NOTICIAS-->
-            <div class="col-3">
+            <div class="col-lg-3" style="padding-left: 30px;">
                 <section>
-                    <aside class="text-center d-flex justify-content-center flex-column">
+                    <aside style="text-align: center;">
                         <h3>Noticias</h3>
                         <hr>
                         <!--PRIMERA NOTICIA-->
-                        <div class="row" style="margin-bottom: 30px;">
-                            <a class="noticia-link" href="">
-                                <div class="card noticia-img link" style="width: 10rem;">
-                                    <img src="https://dummyimage.com/15x15" class="card-img-top img-fluid" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Noticia 1</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-4 col-lg-12 noticia-contenedor">
+                                <a class="noticia-link" href="">
+                                    <div style="width:250px">
+                                        <div class="noticia-img">
+                                            <img src="/assets/img/body/noticias/benefits-01.jpg"
+                                                class="card-img-top img-fluid" alt="...">
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
+                                </a>
+                            </div>
 
-                        <!--SEGUNDA NOTICIA-->
-                        <div class="row" style="margin-bottom: 30px;">
-                            <a class="noticia-link" href="">
-                                <div class="card noticia-img link" style="width: 10rem;">
-                                    <img src="https://dummyimage.com/15x15" class="card-img-top img-fluid" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Noticia 2</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
 
-                        <!--TERCERA NOTICIA-->
-                        <div class="row" style="margin-bottom: 30px;">
-                            <a class="noticia-link" href="">
-                                <div class="card noticia-img link" style="width: 10rem;">
-                                    <img src="https://dummyimage.com/15x15" class="card-img-top img-fluid" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Noticia 3</h5>
+                            <!--SEGUNDA NOTICIA-->
+                            <div class="col-4 col-lg-12 noticia-contenedor">
+                                <a class="noticia-link" href="">
+                                    <div style="width:250px">
+                                        <div class="noticia-img">
+                                            <img src="/assets/img/body/noticias/Our_Best_Education_Articles_of_2020.jpeg"
+                                                class="card-img-top img-fluid" alt="...">
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
+
+
+                            <!--TERCERA NOTICIA-->
+                            <div class="col-4 col-lg-12 noticia-contenedor">
+                                <a class="noticia-link" href="">
+                                    <div style="width:250px">
+                                        <div class="noticia-img">
+                                            <img src="/assets/img/body/noticias/UN0701862 (1).jpg"
+                                                class="card-img-top img-fluid" alt="...">
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+
                             <!--BOTÓN HISTÓRICO DE NOTICIAS-->
 
+
+                            <a href="">
+                                <button class="btn btn-danger" style="margin-top: 30px;text-align: center;">Histórico de
+                                    noticias</button>
+                            </a>
                         </div>
-                        <a href="">
-                            <button class="btn btn-primary" style="margin-top: 30px;">Histórico de noticias</button>
-                        </a>
                     </aside>
                 </section>
             </div>
