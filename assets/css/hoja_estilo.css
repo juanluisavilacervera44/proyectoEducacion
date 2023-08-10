@@ -3,8 +3,12 @@
 @import url(noticias.css);
 @import url(footer.css);
 @import url(concejalia.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
 h1,
 h2 {
     font-weight: bold;
