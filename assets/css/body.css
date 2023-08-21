@@ -31,3 +31,12 @@ body{
 a:link {
     text-decoration: none;
 }
+
+.paralax{
+    height: 400px;
+    background-image: url("../img/body/ninos.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
