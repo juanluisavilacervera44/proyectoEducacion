@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -34,17 +33,20 @@ body{
     border-radius: 10px;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
     color: var(--bs-nav-tabs-link-active-color);
     background-color: #dc3545;
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-        color:  #dc3545 !important;
-        background-color: rgba(128, 128, 128, 0.103);
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #dc3545 !important;
+    background-color: rgba(128, 128, 128, 0.103);
 }
-.paralax{
+
+.paralax {
     height: 400px;
     background-image: url("../img/body/ninos.jpg");
     background-position: center;
