@@ -131,9 +131,137 @@
     </header>
     <!--FIN DE LA CABECERA-->
     <main class="container-fluid p-0">
-       <div class="paralax container-fluid">
-            
-       </div>
+
+        <!--PESTAÑAS-->
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="pestañas-contenedor">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info"
+                            type="button" role="tab" aria-controls="info" aria-selected="true">Infórmate</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="centrosEducativos-tab" data-bs-toggle="tab"
+                            data-bs-target="#centrosEducativos" type="button" role="tab"
+                            aria-controls="centrosEducativos" aria-selected="false">Centros educativos</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="AMPA-tab" data-bs-toggle="tab" data-bs-target="#AMPA" type="button"
+                            role="tab" aria-controls="AMPA" aria-selected="false">AMPA</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="universidad-tab" data-bs-toggle="tab" data-bs-target="#universidad"
+                            type="button" role="tab" aria-controls="universidad"
+                            aria-selected="false">Universidad</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="aulaMentor-tab" data-bs-toggle="tab" data-bs-target="#aulaMentor"
+                            type="button" role="tab" aria-controls="aulaMentor" aria-selected="false">Aula
+                            Mentor</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                        <div class="pestaña-info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="img-fluid" src="/assets/img/concejalía/baldomero.jpg" alt="">
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="d-flex flex-column justify-content-center align-items-center"
+                                        style="height: 100%;">
+                                        <h3 style="margin-bottom: 30px;">Baldomero Andréu Martinez</h3>
+                                        <div style="text-align: justify;">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam culpa
+                                                nobis
+                                                commodi
+                                                ut aperiam perferendis impedit asperiores facere voluptates blanditiis
+                                                consectetur
+                                                recusandae quas quod reprehenderit excepturi, molestias laborum odio
+                                                hic.
+                                            </p>
+                                        </div>
+                                        <div style="margin-top: 50px; width:90%" class="d-flex justify-content-end">
+                                            <button type="button" class="btn btn-danger">Leer más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="centrosEducativos" role="tabpanel"
+                        aria-labelledby="centrosEducativos">
+                        <div class="pestaña-centros">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="d-flex flex-column justify-content-center align-items-center"
+                                        style="height: 100%;">
+                                        <h3 style="margin-bottom: 30px;">Centros educativos</h3>
+                                        <div style="text-align: justify;">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam culpa
+                                                nobis
+                                                commodi
+                                                ut aperiam perferendis impedit asperiores facere voluptates
+                                                blanditiis
+                                                consectetur
+                                                recusandae quas quod reprehenderit excepturi, molestias laborum odio
+                                                hic.
+                                            </p>
+                                        </div>
+                                        <div style="margin-top: 50px; width:90%" class="d-flex justify-content-end">
+                                            <button type="button" class="btn btn-danger">Leer más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="/assets/img/centros_educativos/safa.jpg"
+                                                    alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100"
+                                                    src="/assets/img/centros_educativos/alfonsoxi.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100"
+                                                    src="/assets/img/centros_educativos/antonio_mendoza_alcala_jaen-28.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                            data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                            data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="AMPA" role="tabpanel" aria-labelledby="AMPA-tab">...</div>
+                    <div class="tab-pane fade" id="universidad" role="tabpanel" aria-labelledby="universidad-tab">...
+                    </div>
+                    <div class="tab-pane fade" id="aulaMentor" role="tabpanel" aria-labelledby="aulaMentor-tab">...
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!---->
+
+        <div class="paralax container-fluid">
+
+        </div>
     </main>
 
     <!--FOOTER-->

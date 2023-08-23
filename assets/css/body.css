@@ -1,38 +1,52 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
 
-.imagenes {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.pestañas-contenedor {
+    width: 1000px;
+    height: 700px;
+}
+
+.pestaña-info {
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.103);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pestaña-info img {
     border-radius: 10px;
 }
 
-.fotos{
-    border: solid 1px transparent;
-    transition: all .2s;
-}
-.fotos:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: solid 1px #aaa;
+.pestaña-centros {
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.103);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-
-.link:hover {
-    cursor: pointer;
+.pestaña-centros img {
+    border-radius: 10px;
 }
 
-a:link {
-    text-decoration: none;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: #dc3545;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 
-.paralax{
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #dc3545 !important;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+.paralax {
     height: 400px;
     background-image: url("../img/body/ninos.jpg");
     background-position: center;
