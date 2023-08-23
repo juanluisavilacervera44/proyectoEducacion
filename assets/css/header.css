@@ -1,5 +1,6 @@
 @import url(navbar.css);
 @import url(carousel.css);
+@import url(body.css);
 
 .header{
     margin-right: 0;

@@ -1,14 +1,17 @@
-.imagenes {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 
-image {
-    height: 150px;
-    object-fit: cover
+.imagenes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .fotos{
@@ -20,3 +23,20 @@ image {
     border: solid 1px #aaa;
 }
 
+
+.link:hover {
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.paralax{
+    height: 400px;
+    background-image: url("../img/body/ninos.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
