@@ -1,9 +1,17 @@
+<<<<<<< Updated upstream
 
 .navbar{
     font-size: 30px;
     
 }
 @import url(body.css);
+=======
+@import url(body.css);
+
+.navrow{
+    font-size: 20px;
+}
+>>>>>>> Stashed changes
 .navbar a{
     text-decoration: none !important;
     color: black;
@@ -44,7 +52,6 @@
  
  }
 
- .navrow{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.logo{
+    height: 60px ;
 }
