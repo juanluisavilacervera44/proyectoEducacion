@@ -11,26 +11,24 @@ body {
     height: 700px;
 }
 
-.pestaña-info {
+.pestañas-contenedor button {
+    font-size: 1.3em;
+}
+
+.pestaña {
     padding: 40px;
     background-color: rgba(128, 128, 128, 0.103);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.pestaña-info img {
+.pestaña img {
     border-radius: 10px;
 }
 
-.pestaña-centros {
-    padding: 20px;
-    background-color: rgba(128, 128, 128, 0.103);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.pestaña-centros img {
-    border-radius: 10px;
+.pestaña h3 {
+    text-decoration: underline 5px #dc354677;
 }
 
 .nav-tabs .nav-item.show .nav-link,
