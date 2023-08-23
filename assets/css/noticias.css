@@ -1,37 +1,5 @@
 @import url(body.css);
-.noticia-link{
-    display: flex;
-    justify-content: center;
-    text-decoration: none !important;
-}
-
-
-.noticia-img {
-    position:relative;
-    display:inline-block;
-}
-.noticia-img:hover:after {
-    content:"\A";
-    width:100%;
-    height:100%;
-    background:rgba(255, 0, 0, 0.5);
-    position:absolute;
-    top:0;
-    left:0;
-} 
-
-.noticia-contenedor {
-    margin-top: 30px;
-    text-align: center;
-    width:250px;
-}
-
-.noticia-contenedor > a {
-color: black;
-}
-
-.btn-danger:hover {
-border: solid 1px #dc3545;
-color: #dc3545;
-background-color: white;
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
 }
