@@ -17,6 +17,10 @@
     top: 20%;
 }
 
+.carousel-img{
+    height: 300px;
+}
+
 /* .img-container {
     background: radial-gradient(ellipse at top, #ffffff, transparent), radial-gradient(ellipse at bottom, #ffffff, transparent);
 } */
