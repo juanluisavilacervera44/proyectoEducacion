@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-
+/* INTERFAZ DE PESTAÑAS*/
 .pestañas-contenedor {
     width: 1000px;
     height: 700px;
@@ -44,6 +44,7 @@ body {
     background-color: rgba(128, 128, 128, 0.103);
 }
 
+/* PARALAX */
 .paralax {
     height: 400px;
     background-image: url("../img/body/ninos.jpg");
@@ -52,3 +53,62 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* FORMULARIO */
+
+.form-container {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(/assets/img/body/formulario/360_F_285110178_yUj7sFp89xPArBzrUnZ1qGP0TPLnDwr2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5b0; 
+    border-radius: 10px;
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #dc3545;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    .form-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #dc3545; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    .form-btn:hover {
+    background: #dc3545;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+  }
