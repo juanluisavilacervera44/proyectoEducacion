@@ -2,6 +2,9 @@
 
 .navrow {
     font-size: 20px !important;
+    font-weight: bold;
+    min-height: 100px;
+    margin-bottom: 50px;
 }
 
 .navbar a {
@@ -11,12 +14,6 @@
 
 .nav-link {
     color: white !important;
-}
-
-
-.dropdown-menu {
-    padding: 0 !important;
-    border-radius: 0;
 }
 
 .nav-item {
@@ -51,8 +48,22 @@
 }
 
 /* END -- ON HOVER  */
+
+.dropdown-menu {
+    padding: 0 !important;
+    border-radius: 0;
+    border: 0;
+}
+.dropdown-item{
+    background-color: #ff00003d;
+    color: white !important;
+}
+
 .dropdown-item:hover {
-    background-color: #ff00006c !important;
+    background-color: white !important;
+    color: #ff0000ab !important;
+    border: 0 !important;
+    box-shadow: none !important;
 }
 
 .navbar-toggler {
@@ -64,13 +75,8 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.logo-ayuntamiento {
-    width: 200px !important;
-
-}
-
 .logo {
-    height: 60px;
+    height: 80px;
 }
 
 
