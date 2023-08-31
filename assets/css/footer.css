@@ -34,3 +34,7 @@ ul[class*="no-bullets"] {
 ul.no-bullets {
     list-style-type: none;
 }
+
+footer a{
+    text-decoration: none;
+}
