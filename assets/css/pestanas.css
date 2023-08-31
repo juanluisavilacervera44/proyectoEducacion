@@ -1,0 +1,12 @@
+.pestañas-contenedor .nav-link{
+    border-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.pestañas-contenedor .nav-link.active{
+    border: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.pestañas-contenedor ul{
+    border-bottom: 0;
+}
