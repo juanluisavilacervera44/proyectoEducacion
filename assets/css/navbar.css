@@ -16,13 +16,14 @@
     color: white !important;
 }
 
-.nav-item {
+header.nav-item {
     margin-right: 5px;
     text-align: center;
+    border-bottom: solid 2px #00000000;
 }
 
 /* ON HOVER */
-.nav-item:hover{
+header.nav-item:hover{
     border-bottom: solid 2px white;
 }
 
