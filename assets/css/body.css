@@ -27,21 +27,27 @@ body {
     font-size: 20px;
 }
 
-#ayudas:hover {
+.link-negro:hover {
+    text-decoration: none; 
+}
+
+.link-negro:hover #ayudas {
     text-decoration: underline 2px rgb(255, 230, 0);
 }
 
-#aulam:hover {
+.link-negro:hover #aulam {
     text-decoration: underline 2px rgb(223, 87, 8);
 }
 
-#UNED:hover {
+.link-negro:hover #UNED {
     text-decoration: underline 2px rgba(38, 139, 4, 0.507);
 }
 
-#centros:hover {
+.link-negro:hover #centros {
     text-decoration: underline 2px rgb(139, 4, 4);
 }
+
+
 
 /* INTERFAZ DE PESTAÑAS */
 .pestañas-contenedor {
