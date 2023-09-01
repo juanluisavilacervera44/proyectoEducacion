@@ -1,11 +1,7 @@
 @import url(body.css);
-.carousel-item img {
-    height: 450px;
 
-    
-}
 
-.carousel-caption {
+.header .carousel-caption {
     position: absolute;
     right: 15%;
     bottom: 1.25rem;
@@ -15,8 +11,11 @@
     top: 20%;
 }
 
-.carousel-img{
-    height: 300px;
+.header .carousel-item{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
 }
 
 /* .img-container {
