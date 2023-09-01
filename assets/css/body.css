@@ -71,11 +71,20 @@ body {
 /* PARALAX */
 .paralax {
     height: 400px;
-    background-image: url("../img/body/ninos.jpg");
+    background-image: linear-gradient(#0000003f, #0000003f), url("../img/body/ninos.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paralax h1 {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.795);
 }
 
 /* FORMULARIO */
