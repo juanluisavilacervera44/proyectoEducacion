@@ -4,7 +4,17 @@
     object-fit: cover;
 }
 
+
 .noticia{
     max-width: 400px;
     margin-bottom: 10px;
+
+.enlace:hover{
+    border-bottom: solid 1px white;
+    color:rgb(96, 98, 97) !important
+}
+.enlace:hover .bi{
+    border-bottom: solid 1px white;
+    color:rgb(96, 98, 97) !important
+
 }
