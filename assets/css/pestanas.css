@@ -53,3 +53,28 @@
 .pestaña .col-md-6{
     margin-bottom: 20px;
 }
+
+
+/* PESTAÑAS CON LETRAS PEQUEÑAS */
+
+@media (max-width:800px) {
+    .pestañas-contenedor button{
+        padding: 0;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .pestañas-contenedor li{
+        width: 20%;
+    }
+    
+}
+@media (max-width:600px) {
+    .pestañas-contenedor button{
+        font-size: 14px;
+    }
+}
+
+/* FIN PESTAÑAS */
