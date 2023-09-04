@@ -15,9 +15,22 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
+<<<<<<< Updated upstream
     min-height: 250px;
 }
 
 /* .img-container {
     background: radial-gradient(ellipse at top, #ffffff, transparent), radial-gradient(ellipse at bottom, #ffffff, transparent);
 } */
+=======
+    min-height: 350px;
+}
+
+.carousel-control-prev {
+    justify-content: left;
+}
+
+.carousel-control-next{
+    justify-content: right;
+}
+>>>>>>> Stashed changes
