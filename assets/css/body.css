@@ -22,12 +22,8 @@ body {
     color: black
 }
 
-.link-negro p {
-    font-size: 20px;
-}
-
 .link-negro:hover {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .link-negro:hover #ayudas {
@@ -46,19 +42,56 @@ body {
     text-decoration: underline 2px rgb(139, 4, 4);
 }
 
+.detalles {
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+
+}
+
+.detalles:hover::after {
+    transform: scaleX(1);
+}
+
+.detalles::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #dc3546;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+
+
 
 
 
 /* PARALAX */
 .paralax {
     height: 400px;
-    background-image: url("../img/body/ninos.jpg");
+    background-image: linear-gradient(#0000003f, #0000003f), url("../img/body/ninos.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.paralax h1, h4 {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.paralax h4 {
+    font-size: 2.0em;
+    margin-bottom: 30px;;
+}
 /* FORMULARIO */
 
 .form-container {
