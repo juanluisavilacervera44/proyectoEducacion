@@ -15,6 +15,21 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
+
+    min-height: 250px;
+}
+
+/* .img-container {
+    background: radial-gradient(ellipse at top, #ffffff, transparent), radial-gradient(ellipse at bottom, #ffffff, transparent);
+} */
+
+.carousel-control-prev {
+    justify-content: left;
+}
+
+.carousel-control-next{
+    justify-content: right;
+
     min-height: 350px;
 }
 
