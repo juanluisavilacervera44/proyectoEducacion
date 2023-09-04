@@ -83,15 +83,18 @@ body {
 
 }
 
-.paralax h1, h4 {
+.paralax h1,
+h4 {
     font-size: 3em;
     color: rgba(255, 255, 255, 0.795);
 }
 
 .paralax h4 {
     font-size: 2.0em;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+    ;
 }
+
 /* FORMULARIO */
 
 .form-container {
