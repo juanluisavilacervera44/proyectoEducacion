@@ -11,7 +11,7 @@
     top: 20%;
 }
 
-.header .carousel-item{
+.header .carousel-item {
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -31,4 +31,46 @@
     justify-content: right;
 
     min-height: 350px;
+}
+
+#carouselExampleAutoplaying h1 {
+    font-size: 75px;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+#carouselExampleAutoplaying h5 {
+    color: #dc3545;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#carouselExampleAutoplaying p {
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#carouselExampleAutoplaying a {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#carouselExampleAutoplaying:hover a {
+    background-color: #dc3545;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.carousel-container {
+    background-color: rgba(255, 255, 255, 0.377);
+    height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 800px;
+}
+
+.carousel-container h2 {
+    color: #dc3546c7;
+    font-size: 50px;
 }
