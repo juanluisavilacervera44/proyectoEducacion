@@ -59,7 +59,7 @@ body {
 }
 
 .link-negro:hover #centros {
-    text-decoration: underline 2px mi var(--color-primario);
+    text-decoration: underline 2px var(--color-primario);
 }
 
 .detalles {
