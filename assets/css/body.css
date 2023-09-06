@@ -15,7 +15,7 @@ body {
     --bs-btn-hover-color: #ad002e;
     --bs-btn-hover-bg: #fff;
     --bs-btn-hover-border-color: #ad002e;
-    --bs-btn-focus-shadow-rgb: 225,83,97;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #ad002e;
     --bs-btn-active-border-color: #ad002e;
@@ -162,7 +162,7 @@ input::placeholder {
 .form-btn {
     width: 100%;
     padding: 10px;
-    border: none;
+    border: solid 1.5px var(--color-primario);
     background: var(--color-primario);
     font-size: 16px;
     font-weight: 400;
