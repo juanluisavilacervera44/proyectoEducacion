@@ -1,6 +1,11 @@
 @import url(body.css);
+
+:root {
+    --color-primario: #ad002e;
+}
+
 footer {
-    background: linear-gradient(#ff000000, #ff0000e0);
+    background: linear-gradient(#ff000000, #ad002e);
     padding-top: 100px;
     padding-bottom: 50px;
     color: white;

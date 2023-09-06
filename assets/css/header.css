@@ -2,6 +2,9 @@
 @import url(carousel.css);
 @import url(body.css);
 
+:root {
+    --color-primario: #ad002e;
+}
 .header {
     margin-right: 0;
     margin-left: 0;
@@ -10,7 +13,7 @@
 }
 
 .header div.navrow {
-    background: linear-gradient(#ff0000e0, #ff000070);
+    background: linear-gradient(#ad002e, #ad002e7c);
 }
 
 
@@ -20,7 +23,7 @@ header>.cabecera-titulo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background: #ff00008c;
+    background: var(--color-primario);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     margin-top: 50px;
 }

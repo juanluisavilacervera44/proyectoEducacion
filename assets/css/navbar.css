@@ -1,5 +1,8 @@
 @import url(body.css);
 
+:root {
+    --color-primario: #ad002e;
+}
 .navrow {
     font-size: 20px !important;
     font-weight: bold;
@@ -36,19 +39,19 @@ header.nav-item:hover{
     border: 0;
 }
 .dropdown-item{
-    background-color: #ff00003d;
+    background-color:var(--color-primario);
     color: white !important;
 }
 
 .dropdown-item:hover {
     background-color: white !important;
-    color: #ff0000ab !important;
+    color: var(--color-primario) !important;
     border: 0 !important;
     box-shadow: none !important;
 }
 
 .navbar-toggler {
-    background-color: #ff000041;
+    background-color: var(--color-primario);
     border-color: white;
 }
 
